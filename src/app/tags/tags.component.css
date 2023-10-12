@@ -1,0 +1,14 @@
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.tags a{
+    text-decoration: none;
+    background-color: #c3c2c2;
+    padding: .3rem 1rem;
+    border-radius: 10rem;
+    color: blue;
+    font-weight: 600;
+    margin: .2rem .15rem;
+}

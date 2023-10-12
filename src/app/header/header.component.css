@@ -1,0 +1,50 @@
+header{
+    background-color: white;
+    border-bottom: 1px solid #e72929;
+}
+
+
+.container{
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    display: flex; 
+}
+
+.logo a{
+    color: #af1313;
+    margin: 0;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logo a:hover{
+    background-color: #e72929;
+    color: white;
+}
+
+.menubar{
+    width: 50%;
+    text-align: right;
+    /* display: flex; */
+}
+
+.menubar a{
+    color: #af1313;
+    text-align: right;
+    margin: auto 0;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menubar a:hover{
+    background-color: #e72929;
+    color: white;
+} 
+
+

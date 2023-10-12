@@ -1,0 +1,6 @@
+<div class="tags" *ngIf="tags" [ngStyle]="{'justify-content': justifyContent}">
+    <a *ngFor="let tag of tags" routerLink="/tags/{{tag.name}}">{{tag.name}}({{tag.count}})</a>
+</div>
+<div class="tags" *ngIf="childTags" [ngStyle]="{'justify-content': 'start'}" >
+    <a *ngFor="let tag of childTags">{{tag}}</a>
+</div>
